@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Images, products, and digital presence</title>
+    <meta
+      name="description"
+      content="Photography, content, apps, and websites built with clarity, taste, and fast execution."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+    <header class="floating-nav">
+      <a class="nav-brand" href="#top">Portfolio</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          class="hero-video"
+          aria-hidden="true"
+        >
+          <source
+            src="https://res.cloudinary.com/dfonotyfb/video/upload/v1775585556/dds3_1_rqhg7x.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-left" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-right" aria-hidden="true"></div>
+
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h1>
+              I build images,<br />
+              products, and<br />
+              digital presence.
+            </h1>
+            <p class="hero-text">
+              I work across photography, content creation, apps, and websites.
+              Different formats, same standard: clear work that looks sharp and
+              does its job fast.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">
+                <span>View selected work</span>
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M7 17L17 7" />
+                    <path d="M9 7H17V15" />
+                  </svg>
+                </span>
+              </a>
+              <a
+                class="button button-secondary"
+                href="mailto:revollo94mario@gmail.com"
+              >
+                <span>Get in touch</span>
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M12 5V19" />
+                    <path d="M5 12H19" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel reveal" aria-label="Selected disciplines">
+            <div class="panel-shell">
+              <div class="panel-core">
+                <p class="panel-label">Selected disciplines</p>
+                <ul class="discipline-list">
+                  <li>
+                    <span>Photography</span>
+                    <small>Attention, mood, clarity</small>
+                  </li>
+                  <li>
+                    <span>Content</span>
+                    <small>Social, launch, motion</small>
+                  </li>
+                  <li>
+                    <span>Apps</span>
+                    <small>Useful products, clear structure</small>
+                  </li>
+                  <li>
+                    <span>Websites</span>
+                    <small>Brands, founders, agency work</small>
+                  </li>
+                </ul>
+
+                <div class="panel-note">
+                  <p class="panel-note-title">Same eye, different formats</p>
+                  <p>
+                    Editorial restraint, fast comprehension, and presentation
+                    that feels considered from the first second.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="hero-marquee reveal" aria-label="Practice areas">
+          <div class="hero-marquee-track">
+            <div class="hero-marquee-group">
+              <span>Photography</span>
+              <span>Content Creation</span>
+              <span>Apps</span>
+              <span>Websites</span>
+              <span>Creative Direction</span>
+              <span>Frontend</span>
+            </div>
+            <div class="hero-marquee-group" aria-hidden="true">
+              <span>Photography</span>
+              <span>Content Creation</span>
+              <span>Apps</span>
+              <span>Websites</span>
+              <span>Creative Direction</span>
+              <span>Frontend</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="work">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Selected work</p>
+            <div class="section-copy">
+              <h2>Selected work</h2>
+              <p>
+                A concise view of the work I make across visual, digital, and
+                client-led projects.
+              </p>
+            </div>
+          </div>
+
+          <div class="work-grid" id="work-grid"></div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="contact-shell reveal">
+            <div class="contact-copy">
+              <p class="eyebrow">Contact</p>
+              <h2>
+                Available for selected projects and collaborations, freelance
+                and part-time or full time employement.
+              </h2>
+              <p>
+                Let&apos;s scape the slop together, let&rsquo;s talk.
+              </p>
+            </div>
+            <div class="contact-links" id="contact-links"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
