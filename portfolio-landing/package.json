@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static portfolio landing page",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}
