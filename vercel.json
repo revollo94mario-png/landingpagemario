@@ -1,16 +1,4 @@
 {
-  "version": 2,
-  "name": "landingpagemario",
-  "builds": [
-    {
-      "src": "portfolio-landing/**/*",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/portfolio-landing/$1"
-    }
-  ]
+  "buildCommand": "npm --prefix portfolio-landing install && npm --prefix portfolio-landing run build",
+  "outputDirectory": "portfolio-landing/dist"
 }
