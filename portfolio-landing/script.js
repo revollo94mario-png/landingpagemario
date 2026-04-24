@@ -8,15 +8,15 @@ const workItems = [
       "Events, product, and food photography built to hold attention without losing clarity or atmosphere.",
     meta: "Events / Product / Food",
     backgrounds: [
-      "./assets/photography/cafe-mundi-01.jpg",
-      "./assets/photography/cafe-mundi-02.jpg",
-      "./assets/photography/livecity-feb-01.jpg",
-      "./assets/photography/livecity-jan-01.jpg",
-      "./assets/photography/livecity-jan-02.jpg",
-      "./assets/photography/livecity-jan-03.jpg",
-      "./assets/photography/miskisimi-01.jpg",
-      "./assets/photography/slaven-maroska-01.jpg",
-      "./assets/photography/slaven-maroska-02.jpg",
+      "/assets/photography/cafe-mundi-01.jpg",
+      "/assets/photography/cafe-mundi-02.jpg",
+      "/assets/photography/livecity-feb-01.jpg",
+      "/assets/photography/livecity-jan-01.jpg",
+      "/assets/photography/livecity-jan-02.jpg",
+      "/assets/photography/livecity-jan-03.jpg",
+      "/assets/photography/miskisimi-01.jpg",
+      "/assets/photography/slaven-maroska-01.jpg",
+      "/assets/photography/slaven-maroska-02.jpg",
     ],
     links: [
       {
@@ -37,7 +37,7 @@ const workItems = [
     description:
       "Engaging short form motion and audiovisual content, with an extra focus on aesthetics and sound design.",
     meta: "Short Form / Social / Motion",
-    videoSrc: "./assets/video/audiovisual-reel.mp4",
+    videoSrc: "/assets/video/audiovisual-reel.mp4",
     links: [
       {
         label: "Instagram",
@@ -58,8 +58,8 @@ const workItems = [
       "Tools and products I designed and built with a focus on usefulness, structure, and a clear interface.",
     meta: "Product / UX / Development",
     backgrounds: [
-      "./Web-mockups/Contetnwise.png",
-      "./Web-mockups/Remotely.png",
+      "/Web-mockups/Contetnwise.png",
+      "/Web-mockups/Remotely.png",
     ],
     links: [
       {
@@ -85,9 +85,9 @@ const workItems = [
       "From clean simple stack landing pages to visually engaging complex websites for brands, founders, and agency work.",
     meta: "Landing Pages / Agency / Complex Builds",
     backgrounds: [
-      "./Web-mockups/CSR.png",
-      "./Web-mockups/CSS.png",
-      "./Web-mockups/Gruporynprod.png",
+      "/Web-mockups/CSR.png",
+      "/Web-mockups/CSS.png",
+      "/Web-mockups/Gruporynprod.png",
     ],
     links: [
       {
@@ -121,18 +121,18 @@ const workItems = [
       "Reels are the hype, but stills are the conversion. Social media portrait work and corporate carousels built to carry a brand clearly.",
     meta: "Portrait / Corporate / Carousels",
     stripImages: [
-      "./assets/stills/2026-kw-13-1.png",
-      "./assets/stills/2026-kw-13-2.png",
-      "./assets/stills/2026-kw-13-3.png",
-      "./assets/stills/2026-kw-13-4.png",
-      "./assets/stills/2026-kw-13-5.png",
-      "./assets/stills/campaigns-flows.png",
-      "./assets/stills/slide-1.png",
-      "./assets/stills/slide-2.png",
-      "./assets/stills/slide-3.png",
-      "./assets/stills/slide-4.png",
-      "./assets/stills/slide-5.png",
-      "./assets/stills/webhook.png",
+      "/assets/stills/2026-kw-13-1.png",
+      "/assets/stills/2026-kw-13-2.png",
+      "/assets/stills/2026-kw-13-3.png",
+      "/assets/stills/2026-kw-13-4.png",
+      "/assets/stills/2026-kw-13-5.png",
+      "/assets/stills/campaigns-flows.png",
+      "/assets/stills/slide-1.png",
+      "/assets/stills/slide-2.png",
+      "/assets/stills/slide-3.png",
+      "/assets/stills/slide-4.png",
+      "/assets/stills/slide-5.png",
+      "/assets/stills/webhook.png",
     ],
     links: [
       {
